@@ -1,9 +1,9 @@
 # Android Demo Aplikacija z HoloGraphLibrary
 
-Ta projekt uporablja **HoloGraphLibrary** knjižnico za prikaz grafov v Android aplikaciji.
+Ta projekt uporablja [HoloGraphLibrary](https://github.com/Androguide/HoloGraphLibrary) knjižnico za prikaz grafov v Android aplikaciji.
 
 ## Zakaj HoloGraphLibrary?
-HoloGraphLibrary je odprtokodna knjižnica za prikazovanje grafov in vizualizacij v Android aplikacijah. Omogoča enostavno integracijo barvno privlačnih grafov, kot so črtni grafi, tortni grafi in stolpčni grafi, kar je uporabno pri vizualizaciji podatkov v aplikacijah.
+HoloGraphLibrary je odprtokodna knjižnica, ki omogoča enostaven prikaz barvno privlačnih grafov, kot so črtni grafi, tortni grafi in stolpčni grafi, kar je uporabno pri vizualizaciji podatkov v aplikacijah.
 
 ## Prednosti:
 - **Enostavna uporaba:** Knjižnica je zasnovana z namenom hitre in enostavne integracije.
@@ -17,20 +17,23 @@ HoloGraphLibrary je odprtokodna knjižnica za prikazovanje grafov in vizualizaci
 - **Omejen nabor funkcij:** V primerjavi z bolj sodobnimi knjižnicami (npr. Vico) ima manj funkcionalnosti.
 
 ## Število uporabnikov in vzdrževanje:
-- Knjižnica ima več kot 500 zvezdic na GitHubu, kar kaže na priljubljenost v preteklosti.
-- Zadnji prispevek v repozitorij je bil narejen leta 30.10.2017.
-- 15 vprašanj oz. težav v repozitoriju je neodgovorjenih.
+- **Število zvezdic**: Knjižnica ima več kot **500** zvezdic na GitHubu, kar kaže na priljubljenost v preteklosti.
+- **Zadnji prispevek**: Zadnji prispevek v repozitorij je bil narejen leta **30.10.2017**.
+- **Težave/Vprašanja**: Ima **15 odprtih** in **1 zaprto** vprašanj oz. težav v repozitoriju.
+- **Število forkov**: Ima ***184 "forkov"** na GitHubu, kar kaže na zanimanje skupnosti za nadaljnji razvoj.
+- **Število razvijalcev**: V času razvoja je sodelovalo 14 razvijalcev.
+- **Število pull requestov**: Ima **7 odprtih** in **19 zaprtih** "pull requestov".
 - Avtorji niso aktivni, podpora za nove Android SDK-je ni zagotovljena.
-- Ima 184 "forkov" na GitHubu, kar kaže na zanimanje skupnosti za nadaljnji razvoj.
-- V času razvoja je sodelovalo 14 razvijalcev.
-- Ima 7 neodgovorjenih "pull requestov".
 
 ## Licenca:
-Knjižnica je objavljena pod licenco **Apache License 2.0**, kar omogoča prosto uporabo, spreminjanje in distribucijo.
+Knjižnica je objavljena pod licenco **Apache License 2.0**, kar omogoča **prosto**:
+- Uporabo
+- Spreminjanje
+- Distribucijo
 
 ## Primeri uporabe:
 
-### Pitni graf: 
+### Tortni graf: 
 
 Vizualizira deleže različnih kategorij v celoti.
 
