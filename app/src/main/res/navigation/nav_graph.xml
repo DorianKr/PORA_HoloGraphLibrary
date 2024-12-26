@@ -1,0 +1,23 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/lineGraphFragment">
+
+    <fragment
+        android:id="@+id/lineGraphFragment"
+        android:name="krizaj.dorian.pora_holographlibrary.LineGraphFragment"
+        android:label="Line Graph"
+        tools:layout="@layout/fragment_line_graph" />
+
+    <fragment
+        android:id="@+id/barGraphFragment"
+        android:name="krizaj.dorian.pora_holographlibrary.BarGraphFragment"
+        android:label="Bar Graph"
+        tools:layout="@layout/fragment_bar_graph" />
+
+    <fragment
+        android:id="@+id/pieGraphFragment"
+        android:name="krizaj.dorian.pora_holographlibrary.PieGraphFragment"
+        android:label="Pie Graph"
+        tools:layout="@layout/fragment_pie_graph" />
+</navigation>
