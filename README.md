@@ -1,39 +1,37 @@
-# Android Demo Aplikacija z HoloGraphLibrary
+# 📱 Android Demo Aplikacija z HoloGraphLibrary
 
-Ta projekt uporablja [HoloGraphLibrary](https://github.com/Androguide/HoloGraphLibrary) knjižnico za prikaz grafov v Android aplikaciji.
+![Android](https://img.shields.io/badge/Platform-Android-green.svg?style=flat-square)  
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2017-orange.svg?style=flat-square)  
+![Stars](https://img.shields.io/github/stars/Androguide/HoloGraphLibrary.svg?style=flat-square)  
+![Forks](https://img.shields.io/github/forks/Androguide/HoloGraphLibrary.svg?style=flat-square)
 
-## Zakaj HoloGraphLibrary?
-HoloGraphLibrary je odprtokodna knjižnica, ki omogoča enostaven prikaz barvno privlačnih grafov, kot so črtni grafi, tortni grafi in stolpčni grafi, kar je uporabno pri vizualizaciji podatkov v aplikacijah.
+Ta projekt uporablja [HoloGraphLibrary](https://github.com/Androguide/HoloGraphLibrary) za prikaz grafov v Android aplikaciji. 📊
 
-## Prednosti:
-- **Enostavna uporaba:** Knjižnica je zasnovana z namenom hitre in enostavne integracije.
-- **Vizualna privlačnost:** Grafi sledijo načelom oblikovanja "Holo" teme, ki je bila priljubljena v zgodnjih verzijah Androida.
-- **Dokumentacija:** Osnovna dokumentacija in primeri so na voljo v repozitoriju.
-- **Odprtokodna:** Brezplačna za uporabo in prilagajanje.
+---
 
-## Slabosti:
-- **Zastarelost:** Zadnja posodobitev knjižnice je iz leta 2017, kar pomeni, da je podpora za novejše Android funkcionalnosti lahko omejena.
-- **Pomanjkanje aktivnega vzdrževanja:** Knjižnica nima aktivne skupnosti ali razvijalcev.
-- **Omejen nabor funkcij:** V primerjavi z bolj sodobnimi knjižnicami (npr. Vico) ima manj funkcionalnosti.
+## 🎯 Zakaj HoloGraphLibrary?
 
-## Število uporabnikov in vzdrževanje:
-- **Število zvezdic**: Knjižnica ima več kot **500** zvezdic na GitHubu, kar kaže na priljubljenost v preteklosti.
-- **Zadnji prispevek**: Zadnji prispevek v repozitorij je bil narejen leta **30.10.2017**.
-- **Težave/Vprašanja**: Ima **15 odprtih** in **1 zaprto** vprašanj oz. težav v repozitoriju.
-- **Število forkov**: Ima ***184 "forkov"** na GitHubu, kar kaže na zanimanje skupnosti za nadaljnji razvoj.
-- **Število razvijalcev**: V času razvoja je sodelovalo 14 razvijalcev.
-- **Število pull requestov**: Ima **7 odprtih** in **19 zaprtih** "pull requestov".
-- Avtorji niso aktivni, podpora za nove Android SDK-je ni zagotovljena.
+HoloGraphLibrary je odprtokodna knjižnica, ki omogoča enostaven prikaz barvno privlačnih grafov (črtni, tortni, stolpčni).  
 
-## Licenca:
-Knjižnica je objavljena pod licenco **Apache License 2.0**, kar omogoča **prosto**:
-- Uporabo
-- Spreminjanje
-- Distribucijo
+---
 
-## Primeri uporabe:
+## ✅ **Prednosti**:
+- 🧩 **Enostavna uporaba**: Enostavna integracija v projekte.
+- 🎨 **Privlačen dizajn**: Grafi sledijo Holo Android dizajnu.
+- 📚 **Dokumentacija**: Na voljo so primeri in osnovna navodila.
+- 🆓 **Odprtokodna**: Brezplačna za uporabo in prilagajanje.
 
-### Tortni graf: 
+## ❌ **Slabosti**:
+- 📉 **Zastarelost**: Zadnja posodobitev je iz leta 2017.
+- 🚫 **Pomanjkanje aktivne skupnosti**: Brez nadaljnjega razvoja.
+- 🔄 **Omejen nabor funkcij**: Ni primerna za kompleksne analize.
+
+---
+
+## 📊 Primeri uporabe:
+
+### 🥧 Tortni graf:
 
 Vizualizira deleže različnih kategorij v celoti.
 
@@ -69,10 +67,12 @@ val slices = listOf(
 )
 ```
 
-### Črtni graf: 
+---
+
+### 📈 Črtni graf:
 
 Prikazuje spremembe vrednosti skozi čas.
- 
+
 ![Line Graph Screenshot](images/line_graph.png)
 
 ```kotlin
@@ -97,7 +97,9 @@ lineGraph.setRangeY(0f, 10f)
 lineGraph.setLineToFill(0)
 ```
 
-### Stolpčni graf: 
+---
+
+### 📊 Stolpčni graf:
 
 Primerja vrednosti med različnimi kategorijami.
 
@@ -121,7 +123,11 @@ points.add(bar2)
 barGraph.bars = points
 ```
 
-### MainActivity:
+---
+
+## 🛠️ MainActivity
+
+Omogoča navigacijo med različnimi grafi.
 
 ![Main Activity Screenshot](images/main.png)
 
@@ -150,8 +156,17 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-## Projektna implementacija:
+---
 
-V projektu je uporabljena **HoloGraphLibrary** za prikaz grafa, ki prikazujeje porabo denarja v različnih kategorijah.
+## 🔖 Licenca:
+HoloGraphLibrary je objavljena pod licenco **Apache License 2.0**, kar omogoča:  
+🔓 Prosto uporabo | 🔧 Spreminjanje | 📤 Distribucijo
+
+---
+
+## 📋 Projektna implementacija:
+
+V projektu je uporabljena **HoloGraphLibrary** za prikaz grafa, ki prikazuje porabo denarja v različnih kategorijah.
 
 ![Project Screenshot](images/expenses.png)
+
