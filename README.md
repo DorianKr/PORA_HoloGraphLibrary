@@ -29,6 +29,18 @@ HoloGraphLibrary je odprtokodna knjižnica, ki omogoča enostaven prikaz barvno 
 
 ---
 
+## 📈 Število uporabnikov in vzdrževanje:
+
+- ⭐ **Število zvezdic**: Knjižnica ima več kot **500** zvezdic na GitHubu, kar kaže na priljubljenost v preteklosti.  
+- 📆 **Zadnji prispevek**: Zadnji prispevek v repozitorij je bil narejen leta **30.10.2017**.  
+- ❓ **Težave/Vprašanja**: Ima **15 odprtih** in **1 zaprto** vprašanj oz. težav v repozitoriju.  
+- 🍴 **Število forkov**: Ima **184 "forkov"**, kar kaže na zanimanje skupnosti za nadaljnji razvoj.  
+- 👥 **Število razvijalcev**: V času razvoja je sodelovalo **14 razvijalcev**.  
+- 🔄 **Število pull requestov**: Ima **7 odprtih** in **19 zaprtih** "pull requestov".  
+- ❌ Avtorji niso aktivni, podpora za nove Android SDK-je ni zagotovljena.
+
+---
+
 ## 📊 Primeri uporabe:
 
 ### 🥧 Tortni graf:
